@@ -1,0 +1,689 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Pinnacle Systems Ltd</title>
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+
+    <body> 
+        <!--<div class="loader-container">
+            <div class="loader"></div>
+        </div>-->
+
+    <!--------Navigation Menu-------->
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo1.png" alt="logo">
+            </div>
+            <img src="images/menu.png" class="header_toggle" id="toggle-menu">
+            <div class="menu-overlay" id="menu-overlay"></div>
+            <nav id="nav-menu">
+                <img src="images/close.png" class="header_close" id="close-menu">
+                <ul>
+                    <li class="line"><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#" class="dropbutton" id="dropbtn">PRODUCTS<i class="drop-icon fa-solid fa-chevron-down"></i></a>
+                        <ul class="drop-cont" id="dropcont">
+                            <li><a href="products.html">Automotive Solutions</a></li>
+                            <li><a href="reflective.html">Reflective Materials</a></li>
+                            <li><a href="security.html">Security Solutions</a></li>
+                            <li><a href="road.html">Road Safety Equipment</a></li>
+                            <li><a href="textile.html">Canvas Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <img class="search" src="images/search.png">
+                </ul>
+            </nav>
+        </div>
+
+
+    <!------slideshow------>
+<div id="wrapper">
+  <section class="slideshow" id="js-header">
+    
+    <div class="slideshow__slide js-slider-home-slide is-current" data-slide="1">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute">
+                    <video autoplay loop>
+                        <source src="images/fleet.mp4" type="video/mp4">
+                    </video></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">Fleet Management</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="products.html">
+            <span class="slideshow__slide-caption-subtitle-label">See how</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="slideshow__slide js-slider-home-slide is-next" data-slide="2">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute">
+                    <video autoplay loop>
+                    <source src="images/reflective.mp4" type="video/mp4">
+                    </video></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">Reflective Materials</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="reflective.html">
+            <span class="slideshow__slide-caption-subtitle-label">Learn more about</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="slideshow__slide js-slider-home-slide is-prev" data-slide="3">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute">
+                    <video autoplay loop>
+                        <source src="images/tracking.mp4" type="video/mp4">
+                    </video></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">Vehicle Tracking</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="products.html">
+            <span class="slideshow__slide-caption-subtitle-label">Real-Time Tracking</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="c-header-home_footer">
+    <div class="o-container">
+      <div class="c-header-home_controls -nomobile o-button-group">
+        <div class="js-parallax is-inview" data-speed="1" data-position="top" data-target="#js-header">
+          <button class="o-button -white -square -left js-slider-home-button js-slider-home-prev" type="button">
+            <span class="o-button_label">
+              <svg class="o-button_icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-prev"></use></svg>
+            </span>
+          </button>
+          <button class="o-button -white -square js-slider-home-button js-slider-home-next" type="button">
+            <span class="o-button_label">
+              <svg class="o-button_icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-next"></use></svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+    
+  </section>
+</div>
+  
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 18 18" id="arrow-next">
+        <path id="arrow-next-arrow.svg" d="M12.6,9L4,17.3L4.7,18l8.5-8.3l0,0L14,9l0,0l-0.7-0.7l0,0L4.7,0L4,0.7L12.6,9z"/>
+    </symbol>
+    <symbol viewBox="0 0 18 18" id="arrow-prev">
+        <path id="arrow-prev-arrow.svg" d="M14,0.7L13.3,0L4.7,8.3l0,0L4,9l0,0l0.7,0.7l0,0l8.5,8.3l0.7-0.7L5.4,9L14,0.7z"/>
+    </symbol>
+</svg>
+    
+
+    <!------Why Choose Us----->
+    <div class="container18">
+        <div class="row26 choose-text">
+            <div class="choose-col1">
+                <h4 class="line2">Why Choose Us?</h4>
+                <p>Pinnacle Systems is proud of its strong client focus and long-term relationships. Our aim is to work with our clients, embracing their Fleet Management and Security Strategies to produce systems that convey their key messages and values in a diverse and impressive manner.</p>
+                <p>Attention to detail and quality of work, paired with years of industry experience, make us the perfect choice to partner with to produce outstanding systems.</p>
+            </div>
+            <div class="choose-col2">
+                <div class="choose-img1">
+                    <img src="images/why-us2.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="row24">
+                <div class="why-col">
+                    <div class="row25">
+                        <div class="why-us-col1">
+                            <img class="items-image" src="images/team1.png">
+                        </div>
+                        <div class="why-us-col2">
+                        <p><span class="case-title">We Work As A Team</span><br>Our team is dedicated to giving you the best in all our branches.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-col">
+                    <div class="row25">
+                        <div class="why-us-col1">
+                            <img class="items-image" src="images/money.png">
+                        </div>
+                        <div class="why-us-col2">
+                        <p><span class="case-title">Saves You Money</span><br>Giving you quality products and services at an affordable price.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-col">
+                    <div class="row25">
+                        <div class="why-us-col1">
+                            <img class="items-image" src="images/support.png">
+                        </div>
+                        <div class="why-us-col2">
+                        <p><span class="case-title">Customer Care Support</span><br>We provide technical assistance on our products and services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!------Trusted By Great Teams------->
+    <img src="images/ellipses2.png" class="ellipses1">
+    <div class="container19">
+        <div class="row teams">
+            <div class="col-md-12">
+                <h3 class="line3">Our Clientele</h3>
+            </div>
+        </div>
+
+        <div class="slideshow2">
+            <div class="slide-item">
+                <div class="slide">
+                    <img src="images/isuzu.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/g4s.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/cocacola.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/guardian1.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/acceler.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/m1.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/naivas.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/rusinga.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/apollo.png">
+                </div>
+
+                <div class="slide">
+                    <img src="images/scania.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Our Services------>
+    <div class="container18">
+        <div class="row26 services">
+            <div class="service-col1">
+                <div class="choose-img2">
+                    <img src="images/services3.png">
+                </div>
+            </div>
+            <div class="service-col2">
+                <h4 class="line4">Our Services</h4>
+                <p>As a certified fleet management company, we put all our efforts in providing innovative fleet management solutions. Through implementation of emerging trends in technology, we give the best products and services to our clients based on their needs and requirements.</p>
+                <a href="products.html"><button type="button" class="button1">Explore More</button></a>
+            </div>
+        </div>
+
+        <div class="cont1">
+            <div class="row23">
+                <a href="products.html"><div class="solutions-col solutions-text">
+                    <span class="case-title">
+                        <p class="line5">01</p>
+                        <p>Automotive Solutions</p>
+                    </span>
+                    <p>We specialize in installing and maintaining digital speed limiters embedded with a GPS tracking system in line with the NTSA regulations.</p>
+                </div>
+                </a>
+
+                <a href="reflective.html"><div class="solutions-col solutions-text">
+                    <span class="case-title">
+                        <p class="line5">02</p>
+                        <p>Reflective Materials</p>
+                    </span>
+                    <p>In partnership with Xiamen REFLECTOP Ltd, we sell high-quality reflective materials ranging from vehicle conspicuity marking to traffic and personal safety.</p>
+                </div>
+                </a>
+
+                <a href="security.html"><div class="solutions-col solutions-text">
+                    <span class="case-title">
+                        <p class="line5">03</p>
+                        <p>Security Solutions</p>
+                    </span>
+                    <p>We provide our clients with high-tech security systems, particularly CCTV, biometrics and alarm systems that relay real-time data and support server storage.</p>
+                </div>
+                </a>
+
+                <a href="road.html"><div class="solutions-col solutions-text">
+                    <span class="case-title">
+                        <p class="line5">04</p>
+                        <p>Road Safety Equipment</p>
+                    </span>
+                    <p>Our road safety solutions range from Securon seat belts to powder fire extinguishers and first aid kits that ensure the safety of motorists and pedestrians.</p>
+                </div>
+                </a>
+
+                <a href="textile.html"><div class="solutions-col solutions-text">
+                    <span class="case-title">
+                        <p class="line5">05</p>
+                        <p>Vehicle Canvas</p>
+                    </span>
+                    <p>We custom make and install vehicle tarpaulins made of a variety of high-quality fabrics for different types of vehicles in various sectors. </p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+        <!------Our Accreditations------->
+        <img src="images/ellipses2.png" class="ellipses2">
+        <div class="accred-cont container19">
+            <div class="row teams">
+                <div class="col-md-12">
+                    <h3 class="line3">Our Accreditations</h3>
+                    <p>We are fully certified and accredited by the following organizations to carry out our operations within the confines of government regulations.</p>
+                </div>
+            </div>
+
+            <div class="accred row mt-5">
+                <div class="cont2">
+                    <div class="col accred-text">
+                        <img src="images/bureau.png" class="accred-logo"><br>
+                        <p>We are certified under the ISO 9001:2015 regulations.</p>
+                    </div>
+
+                    <div class="col accred-text">
+                        <img src="images/ntsa.png" style="padding-left: 10px;" class="accred-logo"><br>
+                        <p>We are certified under the KS-2295:2018 regulations.</p>
+                    </div>
+
+                    <div class="col accred-text">
+                        <img src="images/kebs2.png" style="padding-left: 0px;" class="accred-logo"><br>
+                        <p>We are certified under the KS-2295:2018 regulations.</p>
+                    </div>
+
+                    <div class="col accred-text">
+                        <img src="images/cak.png" style="padding-left: 10px;" class="accred-logo"><br>
+                        <p>We follow the regulations set by CAK.</p>
+                    </div>
+                </div>
+            </div> 
+            
+             <!------Our Memberships------->
+            <div class="row teams">
+                <div class="col-md-12">
+                    <h3 class="line3">Our Memberships</h3>
+                </div>
+            </div>
+
+            <div class="accred row mt-5">
+                <div class="cont2">
+                    <div class="col accred-text">
+                        <img src="images/apma.png" class="part-logo">
+                    </div>
+
+                    <div class="col accred-text">
+                        <img src="images/kam.png" class="part-logo" style= "width: 76%;">
+                    </div>
+
+                    <div class="col accred-text">
+                        <img src="images/kncci.png" class="part-logo" style= "width: 80%;">
+                    </div>
+                </div>
+            </div> 
+
+        </div>
+
+        <!-------Footer------>
+        <div class="footer">
+            <div class="container1">
+                <div class="row1">
+                    <div class="footer-col">
+                        <a href="#"><img src="images/logo2.png" class="footer-logo"></a><br>
+                    </div>
+
+                    <div class="footer-col">
+                        <h5>Useful Links</h5>
+                            <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="products.html">Our Products</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                            <li><a href="http://pinnaclesystemskenya.net/gps/">Tracking</a></li>
+                            </ul>
+                    </div>
+
+                    <div class="footer-col footer-text">
+                        <h5>Office hours</h5>
+                        <p>Monday - Friday: 8:00am - 5:00pm</p>
+                        <p>Saturday: 8:00am - 1:00pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+
+                    <div class="footer-col footer-text">
+                        <h5>Get In Touch</h5>
+                        <p><img class="icon" src="images/loc.png">Lunga Lunga Road - Industrial Area</p>
+                        <p><img class="icon" src="images/address.png">P.O. BOX 9596 - 00100 Nairobi, Kenya</p>
+                        <p><img class="icon" src="images/tel.png">(+254) 733 375 799</p>
+                        <p><img class="icon" src="images/email.png">info@pinnaclesystemskenya.net</p>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <hr>
+                    <p style="color: #fff; opacity: 50%;"><span>&copy</span> 2022 Pinnacle Systems Ltd. All Rights Reserved</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="scroll-top"><span class="material-symbols-outlined scroll-icon arrow-up">keyboard_arrow_up</span></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        /*Preloader*/
+        $(window).on("load",function(){
+            $(".loader-container").fadeOut(3000);
+        });
+
+
+        /*For the Navigation Menu*/
+        const navMenu = document.getElementById('nav-menu'),
+        toggleMenu = document.getElementById('toggle-menu'),
+        closeMenu = document.getElementById('close-menu'),
+        menuOverlay = document.getElementById('menu-overlay')
+
+        toggleMenu.addEventListener('click',() => {
+            navMenu.classList.toggle('show')
+            menuOverlay.classList.toggle('active')
+        })
+
+        closeMenu.addEventListener('click',() => {
+            navMenu.classList.remove('show')
+            menuOverlay.classList.remove('active')
+            
+        })
+
+        /*For the Overlay when the side menu opens*/
+        menuOverlay.addEventListener('click', () => {
+            navMenu.classList.remove('show')
+            menuOverlay.classList.remove('active')
+        })
+
+        /*For the dropdown content onclick*/
+        document.getElementById("dropbtn").onclick = function() {myFunction()};
+
+        function myFunction() {
+            document.getElementById("dropcont").classList.toggle("show2");
+        }
+
+        /*For The Slideshow*/
+        const $window = $(window);
+        const $body = $('body');
+
+        class Slideshow {
+        constructor(userOptions = {}) {
+            const defaultOptions = {
+            $el: $('.slideshow'),
+            showArrows: false,
+            showPagination: true,
+            duration: 7000,
+            autoplay: true };
+
+
+            let options = Object.assign({}, defaultOptions, userOptions);
+
+            this.$el = options.$el;
+            this.maxSlide = this.$el.find($('.js-slider-home-slide')).length;
+            this.showArrows = this.maxSlide > 1 ? options.showArrows : false;
+            this.showPagination = options.showPagination;
+            this.currentSlide = 1;
+            this.isAnimating = false;
+            this.animationDuration = 1200;
+            this.autoplaySpeed = options.duration;
+            this.interval;
+            this.$controls = this.$el.find('.js-slider-home-button');
+            this.autoplay = this.maxSlide > 1 ? options.autoplay : false;
+
+            this.$el.on('click', '.js-slider-home-next', event => this.nextSlide());
+            this.$el.on('click', '.js-slider-home-prev', event => this.prevSlide());
+            this.$el.on('click', '.js-pagination-item', event => {
+            if (!this.isAnimating) {
+                this.preventClick();
+                this.goToSlide(event.target.dataset.slide);
+            }
+            });
+
+            this.init();
+        }
+
+        init() {
+            this.goToSlide(1);
+            if (this.autoplay) {
+            this.startAutoplay();
+            }
+
+            if (this.showPagination) {
+            let paginationNumber = this.maxSlide;
+            let pagination = '<div class="pagination"><div class="container">';
+
+            for (let i = 0; i < this.maxSlide; i++) {
+                let item = `<span class="pagination__item js-pagination-item ${i === 0 ? 'is-current' : ''}" data-slide=${i + 1}>${i + 1}</span>`;
+                pagination = pagination + item;
+            }
+
+            pagination = pagination + '</div></div>';
+
+            this.$el.append(pagination);
+            }
+        }
+
+        preventClick() {
+            this.isAnimating = true;
+            this.$controls.prop('disabled', true);
+            clearInterval(this.interval);
+
+            setTimeout(() => {
+            this.isAnimating = false;
+            this.$controls.prop('disabled', false);
+            if (this.autoplay) {
+                this.startAutoplay();
+            }
+            }, this.animationDuration);
+        }
+
+        goToSlide(index) {
+            this.currentSlide = parseInt(index);
+
+            if (this.currentSlide > this.maxSlide) {
+            this.currentSlide = 1;
+            }
+
+            if (this.currentSlide === 0) {
+            this.currentSlide = this.maxSlide;
+            }
+
+            const newCurrent = this.$el.find('.js-slider-home-slide[data-slide="' + this.currentSlide + '"]');
+            const newPrev = this.currentSlide === 1 ? this.$el.find('.js-slider-home-slide').last() : newCurrent.prev('.js-slider-home-slide');
+            const newNext = this.currentSlide === this.maxSlide ? this.$el.find('.js-slider-home-slide').first() : newCurrent.next('.js-slider-home-slide');
+
+            this.$el.find('.js-slider-home-slide').removeClass('is-prev is-next is-current');
+            this.$el.find('.js-pagination-item').removeClass('is-current');
+
+            if (this.maxSlide > 1) {
+            newPrev.addClass('is-prev');
+            newNext.addClass('is-next');
+            }
+
+            newCurrent.addClass('is-current');
+            this.$el.find('.js-pagination-item[data-slide="' + this.currentSlide + '"]').addClass('is-current');
+        }
+
+        nextSlide() {
+            this.preventClick();
+            this.goToSlide(this.currentSlide + 1);
+        }
+
+        prevSlide() {
+            this.preventClick();
+            this.goToSlide(this.currentSlide - 1);
+        }
+
+        startAutoplay() {
+            this.interval = setInterval(() => {
+            if (!this.isAnimating) {
+                this.nextSlide();
+            }
+            }, this.autoplaySpeed);
+        }
+
+        destroy() {
+            this.$el.off();
+        }}
+
+
+        (function () {
+        let loaded = false;
+        let maxLoad = 3000;
+
+        function load() {
+            const options = {
+            showPagination: true };
+
+
+            let slideShow = new Slideshow(options);
+        }
+
+        function addLoadClass() {
+            $body.addClass('is-loaded');
+
+            setTimeout(function () {
+            $body.addClass('is-animated');
+            }, 600);
+        }
+
+        $window.on('load', function () {
+            if (!loaded) {
+            loaded = true;
+            load();
+            }
+        });
+
+        setTimeout(function () {
+            if (!loaded) {
+            loaded = true;
+            load();
+            }
+        }, maxLoad);
+
+        addLoadClass();
+        })();
+
+        /*For the FAQ Scroll Reveal Effect*/
+        ScrollReveal({ 
+            //reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.navbar', { delay: 100, origin: 'top', interval: 300 });
+        ScrollReveal().reveal('#wrapper', { delay: 200});
+        ScrollReveal().reveal('.container18, .cont, .solutions-col, .container19, .slideshow2, .cont2', { delay: 200, interval: 200 });
+        ScrollReveal().reveal('.choose-img2, .slideshow2', { delay: 200,  origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.choose-img1', { delay: 200,  origin: 'right' });
+        ScrollReveal().reveal('.footer-col, .links', { delay: 200, origin: 'left', interval: 200 });
+
+        /*For the scroll button*/
+        const scrollTop = document.querySelector(".scroll-top");
+
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100) {
+                scrollTop.classList.add("active");
+            }
+            else {
+                scrollTop.classList.remove("active");
+            }
+        })
+    </script>
+
+    </body>
+</html>
